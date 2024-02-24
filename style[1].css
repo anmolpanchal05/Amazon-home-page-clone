@@ -1,0 +1,342 @@
+*{
+    border: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/**-----------box1-----------**/
+.navbar{
+    height: 40px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+/**-----------box2-----------**/
+.logo{
+    height: 33px;
+    width: 115px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+.icon{
+    display: flex   ;
+}
+/**-----------box3-----------**/
+.location{
+    position: relative;
+    left: 15px;
+    color: #cccccc;
+    font-size: 0.70rem  ;
+}
+.location2{
+    color: white;
+    font-size: 0.90rem  ;
+    
+}
+.icon{
+    color: white;
+}
+/**-----------box4-----------**/
+.searchbar{
+    background-color: #febd69;
+    margin-left: 25px;
+    width: 620px;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    
+}
+.searchbar:hover{
+    border: 1.5px solid #e2860d;
+}
+.option{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: #f3f3f3;
+    height: 100%;
+    font-size: 0.70rem;
+
+}
+.searchinput{
+    width: 100%;
+    height: 90%;
+    font-size: 0.70rem;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+/*--------------box5---------------*/
+.sign{
+    color: #cccccc;
+    font-size: 0.70rem;
+}
+.account{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.return{
+    color: #cccccc;
+    font-size: 0.85rem;
+    font-size: 0.70rem;
+}
+.order{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*---------------box6------------*/
+.cart{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.car{
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+/*------------------------------------------------------------*/
+
+.panel{
+    height: 39px;
+    background-color: #364961;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+}
+.all{
+    margin-left:3px ;
+}
+.panel-ops p {
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 75%;
+}
+/*----------------------------second box--------------------------------*/
+
+
+.hero{
+    background-image: url("hero_section.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.going{
+    position: relative;
+    top: 350px;
+    background-color: white ;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+}
+a{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 5px;
+}
+/*--------------------third box----------------------*/
+
+
+.shop{
+    width: 23%;
+    height: 300px;
+    margin: 1px 0px 15px;
+    background-color: white;
+    border: 2px solid transparent; 
+}
+.content1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgba(114, 219, 202, 0.589);
+   
+}
+.box-1-img{
+    background-image: url("beauty.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+}
+.box-2-img{
+    background-image: url("best sellar.jpg");
+    background-size:cover;
+    height: 250px;
+    border: 10px;
+}
+.box-3-img{
+    background-image: url("amazon exclusive toys.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+}
+.box-4-img{
+    background-image: url("easy elevanted t-shirts.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+    
+}
+/* .shop-section-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(114, 219, 202, 0.589);
+    margin-top: 20px;
+} */
+.content5{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content6{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content7{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content8{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-5-img{
+    background-image: url("home.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+}
+.box-6-img{
+    background-image: url("live plants and planters.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+}
+.box-7-img{
+    background-image: url("prime_video.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+}
+.box-8-img{
+    background-image: url("small space solution.jpg");
+    background-size: cover;
+    height: 250px;
+    border: 10px;
+}
+.see{
+    color:#007185;
+}
+.shop:hover{
+    border: 2px solid #febd69;
+}
+
+
+
+/*---------------------------------------------------------------------------------------*/
+footer{
+    background-color: #0b121a;
+}
+
+.fotter1{
+    background-color: #374758;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 49px;
+    font-size: 0.75rem;
+}
+.footer2{
+    text-decoration: none;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+    
+}
+ul{
+    margin-top: 10px;
+}
+.footer3{
+    height: 70px;
+    background-color: #0b121a;
+    border-top:0.5px solid white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.logoamazon{
+    height: 33px;
+    width: 115px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.footer4{
+    height: 70px;
+    color: white;
+    background-color: #0f1111;
+padding-top: 20px;
+}
+.pages{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}
